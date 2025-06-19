@@ -1,12 +1,3 @@
-# Prerequisites
-*.d
-Walk speed {5, 5} 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
 # Buyer
 *.buys animals for rarity common {$25} uncommon {$45} rare {$75} epic {$95} legendary {$165}
 
@@ -14,7 +5,9 @@ Walk speed {5, 5}
 *Kills animals and selles the to the Buyer
 *Upgrades boats/Weapons/bags
 *Buy houses/cabind with the money from selling the animal(s) 
-*buys camo suits to hide with the forest
+*buys a camo suit to hide with the forest
+*Walk speed {5, 5} 
+*cooks squirls, alligators, and fish eats them to survive
 
 # Builder
 *Builds houses/cabins and sell to the player
@@ -23,8 +16,3 @@ Walk speed {5, 5}
 # Seller
 *Gives the player Bows, bigger bags, camo suits
 * (prices) Bows{free, $100, $150, $200, $500, $750, $1,00} bags{free, $50, $100, $150, $175, $550, $1,000} Camo suit {$700}
-
-# Executables
-*.exe
-*.out
-*.app
