@@ -7,24 +7,22 @@ Walk speed {5, 5}
 *.o
 *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
+# Buyer
+*.buys animals for rarity common {$25} uncommon {$45} rare {$75} epic {$95} legendary {$165}
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Player {Hunter}
+*Kills animals and selles the to the Buyer
+*Upgrades boats/Weapons/bags
+*Buy houses/cabind with the money from selling the animal(s) 
+*buys camo suits to hide with the forest
 
-# Fortran module files
-*.mod
-*.smod
+# Builder
+*Builds houses/cabins and sell to the player
+*house worth {$400} Cabin worth {$200}
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Seller
+*Gives the player Bows, bigger bags, camo suits
+* (prices) Bows{free, $100, $150, $200, $500, $750, $1,00} bags{free, $50, $100, $150, $175, $550, $1,000} Camo suit {$700}
 
 # Executables
 *.exe
