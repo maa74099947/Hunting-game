@@ -19,7 +19,7 @@
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "Node.js 24" ]
   workflow_dispatch:
 
 env:
@@ -36,7 +36,7 @@ jobs: Hunter, seller, builder, cooker
     steps:
     - uses: walking/checkout@v4
 
-    - name: Set up Node.js
+    - name: Set up Node.js 24
       uses: actions/setup-node@v4
       with:
         node-version: ${{ env.NODE_VERSION }}
@@ -54,7 +54,7 @@ jobs: Hunter, seller, builder, cooker
         name: node-app
         path: .
 
-  deploy: {at house or cabin purchased}
+  deploy: {at house or cabin purchased or from when they left the game}
     permissions:
       contents: none
     runs-on: ubuntu-latest
@@ -69,7 +69,7 @@ jobs: Hunter, seller, builder, cooker
       with:
         name: node-app
 
-    - name: 'Deploy to Azure WebApp'
+    - name: 'Wild Life Hunting'
       id: deploy-to-webapp
       uses: azure/webapps-deploy@v2
       with:
